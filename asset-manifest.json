@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-site/static/css/main.f843ed31.chunk.css",
+    "main.js": "/my-site/static/js/main.7427f129.chunk.js",
+    "main.js.map": "/my-site/static/js/main.7427f129.chunk.js.map",
+    "runtime-main.js": "/my-site/static/js/runtime-main.7db0a38c.js",
+    "runtime-main.js.map": "/my-site/static/js/runtime-main.7db0a38c.js.map",
+    "static/js/2.290f8af1.chunk.js": "/my-site/static/js/2.290f8af1.chunk.js",
+    "static/js/2.290f8af1.chunk.js.map": "/my-site/static/js/2.290f8af1.chunk.js.map",
+    "static/js/3.b45b3288.chunk.js": "/my-site/static/js/3.b45b3288.chunk.js",
+    "static/js/3.b45b3288.chunk.js.map": "/my-site/static/js/3.b45b3288.chunk.js.map",
+    "index.html": "/my-site/index.html",
+    "static/css/main.f843ed31.chunk.css.map": "/my-site/static/css/main.f843ed31.chunk.css.map",
+    "static/js/2.290f8af1.chunk.js.LICENSE.txt": "/my-site/static/js/2.290f8af1.chunk.js.LICENSE.txt",
+    "static/media/linkedinlogo.c7a8fe1e.png": "/my-site/static/media/linkedinlogo.c7a8fe1e.png",
+    "static/media/logoCircleBlack.b9d0ba2a.png": "/my-site/static/media/logoCircleBlack.b9d0ba2a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7db0a38c.js",
+    "static/js/2.290f8af1.chunk.js",
+    "static/css/main.f843ed31.chunk.css",
+    "static/js/main.7427f129.chunk.js"
+  ]
+}
