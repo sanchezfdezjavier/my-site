@@ -4,7 +4,7 @@ import { IconContext } from "react-icons"
 const socialWrapper = (props) =>{
     return (
         <IconContext.Provider value={{ color: "white", size: "2em", className: "global-class-name" }}>
-        <div>
+        <div className="button">
             <a
             href={props.link}   
             target="_blank"
