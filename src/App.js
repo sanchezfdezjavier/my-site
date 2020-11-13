@@ -18,7 +18,7 @@ function App() {
 			<FiMail/> sanchezfdezjavier@gmail.com
 		</IconContext.Provider>
 		</p>
-		<i class="fas fa-camera"></i>
+		<i className="fas fa-camera"></i>
 		<div className="row slide-in-elliptic-bottom-bck">
 			<div className="col-xs-1 icon">
 				<SocialWrapper link="https://github.com/sanchezfdezjavier"><FaGithub/></SocialWrapper>
