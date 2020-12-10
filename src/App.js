@@ -27,7 +27,7 @@ function App() {
 				<SocialWrapper link="https://www.linkedin.com/in/sanchezfdezjavier"><FaLinkedin/></SocialWrapper>
 			</div>
 			<div className="col-xs-1 icon">
-				<SocialWrapper link="https://drive.google.com/file/d/1iu7sR_N5Y3gOYDN9y2d5-LtCw8gaqUlz/view?usp=sharing"><FaRegFileAlt/></SocialWrapper>
+				<SocialWrapper link="https://drive.google.com/file/d/1790CDqH5tQWOtXWfcJnQ2cLP8-dOasCe/view?usp=sharing"><FaRegFileAlt/></SocialWrapper>
 			</div>
 		</div>
 	</div>
@@ -35,3 +35,4 @@ function App() {
 }
 
 export default App;
+
