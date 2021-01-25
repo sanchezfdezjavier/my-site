@@ -10,9 +10,11 @@ import { IconContext } from "react-icons"
 function App() {
   return (
 	<div className="main container-fluid justify-content-center">
-		<img src={logo} className="My-logo slide-in-bck-center slide-in-elliptic-bottom-bck" alt="mylogo" />
+		<div className="">
+			<img src={logo} className="My-logo slide-in-bck-center slide-in-elliptic-bottom-bck" alt="mylogo" />
+		</div>
 		<h1 className="slide-in-elliptic-bottom-bck">Javier Sánchez Fernández</h1>
-		<p className="slide-in-elliptic-bottom-bck">I'm a computer science student based in Madrid, Spain</p>
+		<p className="slide-in-elliptic-bottom-bck">I'm a last-year Computer Science student based in Madrid, Spain.</p>
 		<p className="slide-in-elliptic-bottom-bck">
 		<IconContext.Provider value={{ color: "white", size: "1.5em", className: "global-class-name" }}>
 			<FiMail/> sanchezfdezjavier@gmail.com

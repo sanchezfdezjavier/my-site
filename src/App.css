@@ -25,6 +25,12 @@ p {
 	margin-bottom: 1em;
 }
 
+.logo-box {
+	background: #282828;
+	border-radius: 36%;
+	box-shadow: 8.41px 8.41px 16px #1d1d1d, -8.41px -8.41px 16px #333333;
+}
+
 .main {
 	background: #232526; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
