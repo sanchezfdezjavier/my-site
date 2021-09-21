@@ -1,71 +1,71 @@
 .App {
-	text-align: center;
+  text-align: center;
 }
 
 .avatar {
-	width: 5em;
-	height: 5em;
-	clip-path: circle();
+  width: 5em;
+  height: 5em;
+  clip-path: circle();
 }
 
 h1 {
-	font-family: "Oswald", sans-serif;
-	font-size: 2em;
-	text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 2em;
+  text-align: center;
 }
 
 p {
-	font-family: "Nunito", sans-serif;
-	font-size: 0.8em;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.8em;
 }
 
 .My-logo {
-	height: 25vmin;
-	pointer-events: none;
-	margin-bottom: 1em;
+  height: 25vmin;
+  pointer-events: none;
+  margin-bottom: 1em;
 }
 
 .logo-box {
-	background: #282828;
-	border-radius: 36%;
-	box-shadow: 8.41px 8.41px 16px #1d1d1d, -8.41px -8.41px 16px #333333;
+  background: #282828;
+  border-radius: 36%;
+  box-shadow: 8.41px 8.41px 16px #1d1d1d, -8.41px -8.41px 16px #333333;
 }
 
 .main {
-	background: #232526; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to top,
-		#414345,
-		#232526
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to top,
-		#414345,
-		#232526
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .icon {
-	padding: 5vmin;
+  padding: 5vmin;
 }
 
 SocialWrapper:hover {
-	transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
 }
 
 .slide-in-elliptic-bottom-bck {
-	-webkit-animation: slide-in-elliptic-bottom-bck 0.7s
-		cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-	animation: slide-in-elliptic-bottom-bck 0.7s
-		cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: slide-in-elliptic-bottom-bck 0.7s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-elliptic-bottom-bck 0.7s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 /* ----------------------------------------------
@@ -81,34 +81,50 @@ SocialWrapper:hover {
  * ----------------------------------------
  */
 @-webkit-keyframes slide-in-elliptic-bottom-bck {
-	0% {
-		-webkit-transform: translateY(600px) rotateX(-30deg) scale(6.5);
-		transform: translateY(600px) rotateX(-30deg) scale(6.5);
-		-webkit-transform-origin: 50% -100%;
-		transform-origin: 50% -100%;
-		opacity: 0;
-	}
-	100% {
-		-webkit-transform: translateY(0) rotateX(0) scale(1);
-		transform: translateY(0) rotateX(0) scale(1);
-		-webkit-transform-origin: 50% 500px;
-		transform-origin: 50% 500px;
-		opacity: 1;
-	}
+  0% {
+    -webkit-transform: translateY(600px) rotateX(-30deg) scale(6.5);
+    transform: translateY(600px) rotateX(-30deg) scale(6.5);
+    -webkit-transform-origin: 50% -100%;
+    transform-origin: 50% -100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 500px;
+    transform-origin: 50% 500px;
+    opacity: 1;
+  }
 }
 @keyframes slide-in-elliptic-bottom-bck {
-	0% {
-		-webkit-transform: translateY(600px) rotateX(-30deg) scale(6.5);
-		transform: translateY(600px) rotateX(-30deg) scale(6.5);
-		-webkit-transform-origin: 50% -100%;
-		transform-origin: 50% -100%;
-		opacity: 0;
-	}
-	100% {
-		-webkit-transform: translateY(0) rotateX(0) scale(1);
-		transform: translateY(0) rotateX(0) scale(1);
-		-webkit-transform-origin: 50% 500px;
-		transform-origin: 50% 500px;
-		opacity: 1;
-	}
+  0% {
+    -webkit-transform: translateY(600px) rotateX(-30deg) scale(6.5);
+    transform: translateY(600px) rotateX(-30deg) scale(6.5);
+    -webkit-transform-origin: 50% -100%;
+    transform-origin: 50% -100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 500px;
+    transform-origin: 50% 500px;
+    opacity: 1;
+  }
+}
+
+.a-link {
+  color: rgb(185, 185, 185);
+  text-decoration: none;
+  text-transform: none;
+}
+
+.a-link:hover {
+  text-decoration: underline !important;
+  color: rgb(255, 255, 255);
+}
+
+.email-location-container {
+  /*  TBD  */
+  font-size: medium;
 }
