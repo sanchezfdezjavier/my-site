@@ -34,7 +34,7 @@ function App() {
 				<SocialWrapper link="https://www.linkedin.com/in/sanchezfdezjavier"><FaLinkedin/></SocialWrapper>
 			</div>
 			<div className="col-xs-1 icon">
-				<SocialWrapper link="https://docs.google.com/document/d/1yjZM0yORhAmvz0hcGOjrZ4MK1KgP68buQTprcvOTkzM/edit?usp=sharing"><FaRegFileAlt/></SocialWrapper>
+				<SocialWrapper link="https://docs.google.com/document/d/1yjZM0yORhAmvz0hcGOjrZ4MK1KgP68buQTprcvOTkzM/edit"><FaRegFileAlt/></SocialWrapper>
 			</div>
 		</div>
 	</div>
