@@ -6,6 +6,8 @@ import { FaRegFileAlt, FaGithub, FaLinkedin, FaMapPin } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi'
 import { IconContext } from "react-icons"
 
+import { githubURL, linkedinURL, resumeURL} from './constants'
+
 function App() {
   return (
 	<div className="main container-fluid justify-content-center">
@@ -28,13 +30,13 @@ function App() {
 		<i className="fas fa-camera"></i>
 		<div className="row slide-in-elliptic-bottom-bck">
 			<div className="col-xs-1 icon">
-				<SocialWrapper link="https://github.com/sanchezfdezjavier"><FaGithub/></SocialWrapper>
+				<SocialWrapper link={githubURL} ><FaGithub/></SocialWrapper>
 			</div>
 			<div className="col-xs-1 icon">
-				<SocialWrapper link="https://www.linkedin.com/in/sanchezfdezjavier"><FaLinkedin/></SocialWrapper>
+				<SocialWrapper link={linkedinURL}><FaLinkedin/></SocialWrapper>
 			</div>
 			<div className="col-xs-1 icon">
-				<SocialWrapper link="https://docs.google.com/document/d/1yjZM0yORhAmvz0hcGOjrZ4MK1KgP68buQTprcvOTkzM/edit"><FaRegFileAlt/></SocialWrapper>
+				<SocialWrapper link={resumeURL} ><FaRegFileAlt/></SocialWrapper>
 			</div>
 		</div>
 	</div>
