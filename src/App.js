@@ -11,41 +11,54 @@ import { githubURL, linkedinURL, resumeURL } from "./constants";
 function App() {
   return (
     <div className="main container-fluid justify-content-center">
+      {/* LOGO */}
       <div className="slide-in-elliptic-bottom-bck">
-        <img src={logo} className="My-logo slide-in-bck-center " alt="mylogo" />
+        <img src={logo} className="My-logo" alt="mylogo" />
       </div>
-      <h1 className="">Javier Sánchez Fernández</h1>
-      <p className="">
-        I'm a new grad working as a Software Engineer at{" "}
-        <a className="a-link" href="https://canonical.com/">
-          Canonical
-        </a>{" "}
-        (the makers of Ubuntu)
-      </p>
-      <p className="">
-        <div className="email-location-container">
-          <IconContext.Provider
-            value={{
-              color: "white",
-              size: "1.5em",
-              className: "global-class-name",
-            }}
-          >
-            <FiMail /> sanchezfdezjavier@gmail.com
-          </IconContext.Provider>
 
-          <IconContext.Provider
-            value={{
-              color: "white",
-              size: "1.5em",
-              className: "global-class-name",
-            }}
-          >
-            <FaMapPin /> Dublin, Ireland
-          </IconContext.Provider>
+      <div className="container justify-content-start">
+        {/* MAIN TITLE */}
+        <h1 className="">Javier Sánchez Fernández</h1>
+
+        {/* ABOUT ME */}
+        <p className="text-center">
+          I'm a new grad working as a Software Engineer at{" "}
+          <a className="a-link" href="https://canonical.com/">
+            Canonical
+          </a>{" "}
+          (the makers of Ubuntu)
+        </p>
+      </div>
+
+      {/* EMAIL AND LOCATION */}
+      <div className="email-location-container">
+        <div className="row justify-content-center">
+          <div className="mr-5">
+            <IconContext.Provider
+              value={{
+                color: "white",
+                size: "1.5em",
+                className: "global-class-name",
+              }}
+            >
+              <FaMapPin /> Dublin, Ireland
+            </IconContext.Provider>
+          </div>
+          <div className="">
+            <IconContext.Provider
+              value={{
+                color: "white",
+                size: "1.5em",
+                className: "global-class-name",
+              }}
+            >
+              <FiMail /> sanchezfdezjavier@gmail.com
+            </IconContext.Provider>
+          </div>
         </div>
-      </p>
-      <i className="fas fa-camera"></i>
+      </div>
+
+      {/* SOCIAL NETWORKS */}
       <div className="row ">
         <div className="col-xs-1 icon">
           <SocialWrapper link={githubURL}>
