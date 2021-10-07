@@ -1,7 +1,8 @@
 import logo from "./images/LogoWhite.png";
 import "./App.css";
-import SocialWrapper from "./components/SocialWrapper";
 
+import SocialWrapper from "./components/SocialWrapper/SocialWrapper";
+import CoolButton from './components/CoolButton/CoolButton'
 import { FaRegFileAlt, FaGithub, FaLinkedin, FaMapPin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { IconContext } from "react-icons";
@@ -29,7 +30,7 @@ function App() {
           (the makers of Ubuntu)
         </p>
       </div>
-
+      <CoolButton>Hello</CoolButton>
       {/* EMAIL AND LOCATION */}
       <div className="email-location-container">
         <div className="row justify-content-center">
