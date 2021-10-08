@@ -2,9 +2,10 @@ import logo from "./images/LogoWhite.png";
 import "./App.css";
 
 import SocialWrapper from "./components/SocialWrapper/SocialWrapper";
-import CoolButton from './components/CoolButton/CoolButton'
+import CoolButton from "./components/CoolButton/CoolButton";
 import { FaRegFileAlt, FaGithub, FaLinkedin, FaMapPin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
+import { TiDocumentText } from "react-icons/ti";
 import { IconContext } from "react-icons";
 
 import { githubURL, linkedinURL, resumeURL } from "./constants";
@@ -30,7 +31,8 @@ function App() {
           (the makers of Ubuntu)
         </p>
       </div>
-      <CoolButton>Hello</CoolButton>
+      <CoolButton className="align-items-center">GitHub</CoolButton>
+
       {/* EMAIL AND LOCATION */}
       <div className="email-location-container">
         <div className="row justify-content-center">
@@ -73,7 +75,7 @@ function App() {
         </div>
         <div className="col-xs-1 icon">
           <SocialWrapper link={resumeURL}>
-            <FaRegFileAlt />
+            <TiDocumentText />
           </SocialWrapper>
         </div>
       </div>

@@ -1,0 +1,8 @@
+.chip {
+  transition: all 250ms;
+}
+
+.chipp:hover {
+  transform: scale(1.1) rotate(-2deg);
+  transition: all 250ms;
+}
