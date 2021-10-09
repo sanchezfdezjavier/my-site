@@ -4,6 +4,7 @@ import SocialWrapper from "./components/SocialWrapper";
 
 import { FaRegFileAlt, FaGithub, FaLinkedin, FaMapPin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
+import { TiDocumentText } from "react-icons/ti";
 import { IconContext } from "react-icons";
 
 import { githubURL, linkedinURL, resumeURL } from "./constants";
@@ -61,18 +62,18 @@ function App() {
       {/* SOCIAL NETWORKS */}
       <div className="row ">
         <div className="col-xs-1 icon">
-          <SocialWrapper link={githubURL}>
+          <SocialWrapper link={githubURL} size="2em">
             <FaGithub />
           </SocialWrapper>
         </div>
         <div className="col-xs-1 icon">
-          <SocialWrapper link={linkedinURL}>
+          <SocialWrapper link={linkedinURL} size="2em">
             <FaLinkedin />
           </SocialWrapper>
         </div>
         <div className="col-xs-1 icon">
-          <SocialWrapper link={resumeURL}>
-            <FaRegFileAlt />
+          <SocialWrapper link={resumeURL} size="2.3em">
+            <TiDocumentText />
           </SocialWrapper>
         </div>
       </div>
