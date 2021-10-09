@@ -32,9 +32,9 @@ function App() {
       </div>
 
       {/* EMAIL AND LOCATION */}
-      <div className="email-location-container">
+      <div className="container email-location-container">
         <div className="row justify-content-center">
-          <div className="mr-5">
+          <div className="col col-md-3 text-center text-nowrap">
             <IconContext.Provider
               value={{
                 color: "white",
@@ -45,7 +45,7 @@ function App() {
               <FaMapPin /> Dublin, Ireland
             </IconContext.Provider>
           </div>
-          <div className="">
+          <div className="col col-md-3  text-center text-nowrap">
             <IconContext.Provider
               value={{
                 color: "white",
@@ -60,7 +60,7 @@ function App() {
       </div>
 
       {/* SOCIAL NETWORKS */}
-      <div className="row ">
+      <div className="row justify-content-center">
         <div className="col-xs-1 icon">
           <SocialWrapper link={githubURL} size="2em">
             <FaGithub />
