@@ -42,7 +42,10 @@ function App() {
                 className: "global-class-name",
               }}
             >
-              <FaMapPin /> Dublin, Ireland
+              <p>
+                <FaMapPin className="mr-1" />
+                Dublin, Ireland
+              </p>
             </IconContext.Provider>
           </div>
           <div className="col col-md-3  text-center text-nowrap">
@@ -53,7 +56,10 @@ function App() {
                 className: "global-class-name",
               }}
             >
-              <FiMail /> sanchezfdezjavier@gmail.com
+              <p>
+                <FiMail className="mr-1" />
+                sanchezfdezjavier@gmail.com
+              </p>
             </IconContext.Provider>
           </div>
         </div>
@@ -72,7 +78,7 @@ function App() {
           </SocialWrapper>
         </div>
         <div className="col-xs-1 icon">
-          <SocialWrapper link={resumeURL} size="2.3em">
+          <SocialWrapper link={resumeURL} size="2.2em">
             <TiDocumentText />
           </SocialWrapper>
         </div>
