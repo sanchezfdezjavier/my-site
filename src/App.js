@@ -1,11 +1,14 @@
 import logo from "./images/LogoWhite.png";
 import "./App.css";
 import SocialWrapper from "./components/SocialWrapper";
+import AvatarCircle from "./components/AvatarCircle/AvatarCircle";
 
 import { FaRegFileAlt, FaGithub, FaLinkedin, FaMapPin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { TiDocumentText } from "react-icons/ti";
 import { IconContext } from "react-icons";
+
+import Avatar from "./images/avatar.jpg";
 
 import { githubURL, linkedinURL, resumeURL } from "./constants";
 
@@ -14,7 +17,8 @@ function App() {
     <div className="main container-fluid justify-content-center">
       {/* LOGO */}
       <div className="slide-in-elliptic-bottom-bck">
-        <img src={logo} className="My-logo" alt="mylogo" />
+        <img src={logo} className="My-logo img-fluid" alt="mylogo" />
+        <AvatarCircle img={Avatar} />
       </div>
 
       <div className="container justify-content-start">

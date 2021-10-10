@@ -1,0 +1,8 @@
+img.clip-circle {
+  clip-path: circle(30rem at center);
+}
+
+div.clip-border {
+  background-color: aliceblue;
+  clip-path: circle(31rem at center);
+}
