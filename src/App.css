@@ -10,14 +10,23 @@
 
 h1 {
   font-family: "Nunito", sans-serif;
-  font-size: 2em;
-  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #252fff -100%, #256af3 -50%, #7cc0e2 0, #256af3 50%, #252fff 100%);
+  color: #256af3;
+  display: inline-block;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  line-height: 1.07143;
   text-align: center;
 }
 
-p {
-  font-family: "Nunito", sans-serif;
-  font-size: 0.8em;
+p.text-body{
+  color: #a1a1a6;
+  font-weight: 600;
+  font-size: 24;
 }
 
 .My-logo {
@@ -33,11 +42,7 @@ p {
 }
 
 .main {
-  background: linear-gradient(
-    to top,
-    #191b1b,
-    #414345
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: black;
 
   min-height: 100vh;
   display: flex;

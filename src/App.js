@@ -20,10 +20,10 @@ function App() {
 
       <div className="container justify-content-start">
         {/* MAIN TITLE */}
-        <h1 className="">Javier Sánchez Fernández</h1>
+        <h1 className="">Javier Sánchez</h1>
 
         {/* ABOUT ME */}
-        <p className="text-center">
+        <p className="text-center text-body">
           I'm a new grad working as a Software Engineer at{" "}
           <a className="a-link" href="https://canonical.com/">
             Canonical
