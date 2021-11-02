@@ -6,6 +6,12 @@ import { FaRegFileAlt, FaGithub, FaLinkedin, FaMapPin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { IconContext } from "react-icons";
 
+import avatar_centered from './images/avatar_centered.jpg'
+
+import { Button } from '@nextui-org/react';
+import { Tooltip } from '@nextui-org/react';
+import { Avatar } from '@nextui-org/react';
+
 import { githubURL, linkedinURL, resumeURL } from "./constants";
 
 function App() {
@@ -57,6 +63,9 @@ function App() {
           </div>
         </div>
       </div>
+
+      <Button color="gradient">Press me</Button>
+      <Avatar size="small" src={avatar_centered} color="primary" bordered />
 
       {/* SOCIAL NETWORKS */}
       <div className="row ">
