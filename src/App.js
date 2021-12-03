@@ -4,6 +4,7 @@ import "./App.css";
 import SocialWrapper from "./components/SocialWrapper/SocialWrapper";
 import CoolButton from "./components/CoolButton/CoolButton";
 import MainTitle from "./components/MainTitle/MainTitle";
+import AboutMe from "./components/AboutMe/AboutMe";
 
 import { FaRegFileAlt, FaGithub, FaLinkedin, FaMapPin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
@@ -20,20 +21,13 @@ function App() {
         <img src={logo} className="My-logo" alt="mylogo" />
       </div>
 
-      <div className="container justify-content-start text-align-center">
+      <div className="container justify-content-center text-align-center">
         {/* MAIN TITLE */}
         <MainTitle>Javier Sánchez</MainTitle>
 
         {/* ABOUT ME */}
-        <p className="text-center text-body">
-          I'm a new grad working as a Software Engineer at{" "}
-          <a className="a-link" href="https://canonical.com/">
-            Canonical
-          </a>{" "}
-          (the makers of Ubuntu)
-        </p>
+        <AboutMe />
       </div>
-      <CoolButton className="align-items-center">GitHub</CoolButton>
 
       {/* EMAIL AND LOCATION */}
       <div className="email-location-container">
@@ -81,6 +75,7 @@ function App() {
           </SocialWrapper>
         </div>
       </div>
+      <CoolButton className="align-items-center">📩 Contact me!</CoolButton>
     </div>
   );
 }

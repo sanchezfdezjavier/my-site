@@ -1,0 +1,29 @@
+p.text-body {
+  color: rgb(255, 255, 255);
+  font-weight: 350;
+  font-size: 24;
+}
+
+p.text-body2 {
+  border: 0 solid #bfc3d9;
+  box-sizing: border-box;
+  color: #dcdfec;
+  font-family: ui-sans-serif, system-ui, -apple-system, "system-ui", "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin: 0 0 2rem;
+  text-align: left;
+}
+
+.a-link {
+  color: rgb(153, 200, 251);
+  text-decoration: none;
+  text-transform: none;
+}
+
+.a-link:hover {
+  text-decoration: underline !important;
+  color: rgb(255, 255, 255);
+}

@@ -53,17 +53,6 @@ SocialWrapper:hover {
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-.a-link {
-  color: rgb(185, 185, 185);
-  text-decoration: none;
-  text-transform: none;
-}
-
-.a-link:hover {
-  text-decoration: underline !important;
-  color: rgb(255, 255, 255);
-}
-
 .email-location-container {
   /*  TBD  */
   font-size: medium;
