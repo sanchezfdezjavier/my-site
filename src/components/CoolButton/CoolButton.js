@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
-import './CoolButton.css'
+import classes from "./CoolButton.module.css";
 
 export default function CoolButton(props) {
-    return (
-        <div className="container">
-            <a href={props.url} className="chip">{props.children}</a>
-        </div>
-    )
+  return (
+    <div className={classes.container}>
+      <a href={props.url} className={classes.chip}>
+        {props.children}
+      </a>
+    </div>
+  );
 }
