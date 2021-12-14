@@ -3,6 +3,7 @@ import "./App.css";
 
 import SocialWrapper from "./components/SocialWrapper/SocialWrapper";
 import CoolButton from "./components/CoolButton/CoolButton";
+import CoolButton2 from "./components/CoolButton2/CoolButton2";
 import MainTitle from "./components/MainTitle/MainTitle";
 import AboutMe from "./components/AboutMe/AboutMe";
 
