@@ -75,13 +75,8 @@ SocialWrapper:hover {
 }
 
 .email-location-container {
-  /*  TBD  */
+  margin: 0.5rem;
   font-size: medium;
-}
-
-.email-location-container {
-  margin: 1rem;
-  width: 50em;
 }
 
 /* ----------------------------------------------
